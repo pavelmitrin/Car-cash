@@ -4,456 +4,266 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"> -->
-	<!-- Icons -->
-	<link rel="stylesheet" href="vendors/bootstrap-icons.css">
-	<!-- Style -->
-	<link rel="stylesheet" href="vendors/bootstrap.min.css">
-	<link rel="stylesheet" href="style/vars.css">
-	<link rel="stylesheet" href="style/main.css">
-
-	<title>CAR CASH 34</title>
+	<link rel="stylesheet" href="styles/fonts.css">
+	<link rel="stylesheet" href="styles/vars.css">
+	<link rel="stylesheet" href="styles/nullstyle.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="styles/bootstrap-grid.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<title>Car34cash</title>
 </head>
-<body class="position-relative">
-	
-	<header class="header">
-		<div class="container-fluid">
-			<nav class="navbar navbar-expand-lg  justify-content-end justify-content-lg-between">
-				<a class="navbar-brand d-none d-lg-block" href="#">
-					<img src="img/favicon.png" class="c-header__img img-fluid" alt="car cash 34">
+<body>
+	<header class="lock-padding">
+		<div class="navbar">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320.9 68.84"><defs><style>.cls-1{fill:#fff;}</style></defs><path class="cls-1" d="m1.62,65.99c-1.69-1.9-2.06-4.22-1.12-6.95L17.43,9.88c.94-2.73,2.91-5.05,5.91-6.95C26.38,1.02,29.59.07,32.95.07s5.89.95,7.58,2.85c1.73,1.9,2.13,4.22,1.19,6.95l-6.45,18.73h-9.14l6.75-19.61c.23-.68.14-1.24-.3-1.68-.37-.49-.99-.73-1.87-.73s-1.67.24-2.37.73c-.74.44-1.22,1-1.46,1.68L9.35,59.92c-.24.68-.13,1.24.3,1.68.47.49,1.09.73,1.87.73s1.57-.24,2.37-.73c.74-.44,1.22-1,1.46-1.68l6.75-19.61h9.14l-6.45,18.73c-.94,2.73-2.93,5.05-5.98,6.95-3,1.9-6.18,2.85-9.54,2.85s-5.91-.95-7.65-2.85Z"/><path class="cls-1" d="m37.82,61.16l-3.32,6.66h-9L57.53.95h8.93l-14.03,66.87h-9l1.27-6.66h-6.88Zm15.41-34.75l-11.79,27.43h4.68l7.11-27.43Z"/><path class="cls-1" d="m72.54,67.82l8.36-24.29c.44-1.27.33-2.16-.32-2.67-.65-.51-2.16-.74-4.52-.69l-9.52,27.65h-9.14L80.42.95h12.14c1.95,0,3.55.2,4.81.59,1.26.39,2.3,1.07,3.14,2.05.9.93,1.39,1.97,1.48,3.15.08,1.17-.1,2.41-.55,3.73l-7.15,20.78c-.39,1.12-.87,2.04-1.46,2.74-.59.71-1.14,1.26-1.67,1.65-.66.49-1.28.8-1.86.95.44.29.81.71,1.11,1.24.24.44.4,1.02.49,1.76.09.73-.05,1.63-.42,2.71l-8.79,25.53h-9.14Zm13.02-37.82c.42-1.36,1.04-3.19,1.85-5.49.81-2.29,1.6-4.54,2.35-6.73l2.8-8.12c.23-.68.14-1.24-.3-1.68-.43-.44-1.07-.66-1.9-.66h-3l-8.89,25.83c1.02,0,1.92-.02,2.7-.07.77-.05,1.43-.17,1.99-.37.55-.19,1.02-.5,1.41-.91.39-.41.71-1.01.98-1.79Z"/><path class="cls-1" d="m108.58,65.99c-1.69-1.9-2.06-4.22-1.12-6.95l16.93-49.16c.94-2.73,2.91-5.05,5.91-6.95,3.04-1.9,6.25-2.85,9.61-2.85s5.89.95,7.58,2.85c1.73,1.9,2.13,4.22,1.19,6.95l-6.45,18.73h-9.15l6.75-19.61c.23-.68.14-1.24-.3-1.68-.37-.49-.99-.73-1.87-.73s-1.67.24-2.37.73c-.74.44-1.22,1-1.46,1.68l-17.53,50.92c-.24.68-.13,1.24.3,1.68.47.49,1.09.73,1.87.73s1.57-.24,2.37-.73c.74-.44,1.22-1,1.46-1.68l6.75-19.61h9.15l-6.45,18.73c-.94,2.73-2.93,5.05-5.98,6.95-3,1.9-6.18,2.85-9.54,2.85s-5.92-.95-7.65-2.85Z"/><path class="cls-1" d="m144.78,61.16l-3.32,6.66h-9L164.49.95h8.93l-14.03,66.87h-9l1.27-6.66h-6.88Zm15.41-34.75l-11.79,27.43h4.68l7.11-27.43Z"/><path class="cls-1" d="m184.74,66.21c-2.78,1.71-5.81,2.56-9.08,2.56s-5.68-.85-7.39-2.56c-1.7-1.71-2.27-3.8-1.71-6.29l5.84-16.97,9.17-.07-5.84,16.97c-.23.68-.14,1.24.3,1.68.47.49,1.09.73,1.87.73.68,0,1.47-.24,2.37-.73.74-.44,1.22-1,1.46-1.68l6.6-19.17c.55-1.61-.07-2.41-1.88-2.41h-.59c-3.41,0-5.97-1.07-7.67-3.22-1.39-1.9-1.66-4.1-.8-6.58l6.4-18.58c.92-2.68,2.88-4.97,5.88-6.88,3.06-1.95,6.28-2.93,9.64-2.93s5.93.98,7.55,2.93c1.72,1.95,2.12,4.24,1.22,6.88l-4.58,13.32h-9.14l4.86-14.12c.25-.73.16-1.32-.27-1.76-.56-.49-1.19-.73-1.87-.73-.78,0-1.57.24-2.37.73-.74.44-1.23,1.02-1.48,1.76l-6.42,18.66c-.24.68-.19,1.24.15,1.68.32.49.89.73,1.72.73h1.68c2.58,0,4.52.54,5.81,1.61,1.03.83,1.68,2.05,1.96,3.66.19,1.85-.02,3.61-.64,5.27l-6.6,19.17-.03.07c-1.17,2.54-3.2,4.63-6.12,6.29Z"/><path class="cls-1" d="m204.16,67.82h-9L218.18.95h9l-10.23,29.7h6.44L233.62.95h9l-23.02,66.87h-9l10.28-29.85h-6.44l-10.28,29.85Z"/><path class="cls-1" d="m260.96,11.41c1.09-3.17,3.19-5.85,6.28-8.05,3.16-2.24,6.38-3.37,9.65-3.37s5.71,1.12,7.33,3.37c1.59,2.19,1.83,4.88.74,8.05l-5.26,15.29c-1.02,2.98-2.95,5.51-5.76,7.61,1.36,2.15,1.52,4.73.47,7.75l-5.29,15.36c-1.09,3.17-3.18,5.85-6.28,8.05-3.07,2.24-6.28,3.37-9.65,3.37s-5.81-1.12-7.33-3.37c-1.58-2.19-1.83-4.88-.74-8.05l4.91-14.27h8.85l-5.24,15.22c-.29.83-.22,1.56.2,2.19.35.54.99.8,1.92.8s1.78-.27,2.54-.8c.79-.59,1.33-1.32,1.63-2.19l5.97-17.34c.22-.63.2-1.13-.07-1.5-.27-.36-.6-.67-1-.91-.45-.24-1-.41-1.65-.51l2.52-7.32c.41-.05.8-.12,1.17-.22.33-.1.65-.19.98-.29.33-.1.64-.24.96-.44.83-.59,1.4-1.29,1.68-2.12l5.97-17.34c.29-.83.24-1.54-.15-2.12-.48-.59-1.14-.88-1.97-.88-.88,0-1.71.29-2.5.88-.85.63-1.41,1.34-1.68,2.12l-5.84,16.97h-8.78c.03-.1.49-1.46,1.37-4.1.88-2.63,2.23-6.58,4.04-11.85Z"/><path class="cls-1" d="m305.68.95l-13.53,39.29h6.22L311.9.95h9l-13.53,39.29h2.41l-2.52,7.32h-2.41l-6.98,20.27h-9l6.98-20.27h-13.39c-.63,0-1.07-.09-1.3-.26-.23-.17-.18-.74.15-1.72L296.68.95h9Z"/></svg>
 				</a>
-				<button class="navbar-toggler c-header__toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#headerOffcanvas" aria-controls="headerOffcanvas">
-					<i class="bi bi-three-dots-vertical"></i>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="offcanvas offcanvas-end bg-primary" tabindex="-1" id="headerOffcanvas" aria-labelledby="headerOffcanvasLabel">
-					<div class="offcanvas-header justify-content-end">
-						<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-					</div>
-					<div class="offcanvas-body w-100 ">
-						<div class="navbar-nav text-start px-4 px-lg-0 flex-fill justify-content-center text-center fw-bold">
-							<a class="nav-link active" aria-current="page" href="#">Главная</a>
-							<a class="nav-link" href="#advantage">Преимущества</a>
-							<a class="nav-link" href="#reviews">Отзывы</a>
-							<a class="nav-link d-lg-none" href="#qa">Вопросы и ответы</a>
-							<a class="nav-link" href="#contacts">Контакты</a>
-						</div>
-						<div class="c-header__connection d-none d-lg-block">
-							<a href="tel:+79034670077" class="mx-3 text-decoration-none text-black">+7 (903) 467-00-77</a>
-							<button type="button" class="btn btn-primary fw-bold" data-bs-toggle="modal" data-bs-target="#request">
-								Оставить заявку
-							</button>
-						</div>
-					</div>
+				<div class="navbar-collapse" id="navbarNav">
+					<a class="nav-link" href="#contacts">Контакты</a>
+					<a class="nav-link" href="#about">О нас</a>
+					<a class="nav-link" href="#info">Инфо</a>
 				</div>
-			</nav>
+			</div>
 		</div>
 	</header>
-	<main class="main">
-		<section class="head position-relative w-100 py-4">
+	<main class="lock-padding">
+		<div class="head" id="head">
 			<div class="container">
-				<div class="row position-relative">
-					<div class="col-12 col-md-10 col-lg-7 text-start text-white">
-						<h1 class="c-head__title">Автоломбард в Волгограде. Займ под ПТС или Спецтехнику</h1>
-						<ul class="my-5">
-							<li>до 15 млн руб</li>
-							<li>Автомобиль остаётся у вас</li>
-							<li>Ставка от 2,5%</li>
-							<li>нужны только паспорт ПТС и СТС или ПСМ</li>
-						</ul>
-						<button type="button" class="btn btn-primary btn-lg mb-5" data-bs-toggle="modal" data-bs-target="#request">
-							Оставить заявку
-						</button>
-					</div>
-				</div>
+				<h1 class="head__title">Официальный сайт «Car34cash»</h1>
+				<h3 class="head__subtitle">По возникшим вопросам обращайтесь по телефону.</h3>
+				<a href="tel:+79999999999" class="btn call__btn">Позвоните нам
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+						<path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+					</svg>
+				</a>
 			</div>
-			<div class="col-12 position-absolute start-50 translate-middle text-center d-inline-block c-head__icon-down">
-				<button class="c-head__scroll text-white"><i class="bi bi-chevron-double-down"></i></button>
-			</div>
-		</section>
-		<section class="advantage" id="advantage">
+			<img src="img/headBg.webp" alt="Фоновая картинка" class="bg">
+		</div>
+		<div class="contacts" id="contacts">
+			<h2 class="contacts__title">Контакты</h2>
 			<div class="container">
-				<div class="row">
-					<div class="col-12 mb-4">
-						<h2 class="text-center fw-semibold c-section__title">Преимущества</h2>
-					</div>
-					<div class="row row-cols-2 row-cols-md-4 mt-4">
-						<div class="col text-center">
-							<div class="c-advantage__icon"><i class="bi bi-clock-history"></i></div>
-							<div class="c-advantage__text">
-								Выдача наличных в тот же день
-							</div>
-						</div>
-						<div class="col text-center">
-							<div class="c-advantage__icon"><i class="bi bi-graph-up-arrow"></i></div>
-							<div class="c-advantage__text">
-								Оценка автомобиля до 90% стоимости
-							</div>
-						</div>
-						<div class="col text-center">
-							<div class="c-advantage__icon"><i class="bi bi-file-text"></i></div>
-							<div class="c-advantage__text">
-								Без справок и поручителей
-							</div>
-						</div>
-						<div class="col text-center">
-							<div class="c-advantage__icon"><i class="bi bi-credit-card-2-front"></i></div>
-							<div class="c-advantage__text">
-								С любой кредитной историей
-							</div>
-						</div>
-						<div class="col text-center">
-							<div class="c-advantage__icon"><i class="bi bi-bank"></i></div>
-							<div class="c-advantage__text">
-								Работаем с юр.лицами
-							</div>
-						</div>
-						<div class="col text-center">
-							<div class="c-advantage__icon"><i class="bi bi-bag-check"></i></div>
-							<div class="c-advantage__text">
-								Без дополнительных услуг
-							</div>
-						</div>
-						<div class="col text-center">
-							<div class="c-advantage__icon"><i class="bi bi-percent"></i></div>
-							<div class="c-advantage__text">
-								Без комиссии
-							</div>
-						</div>
-						<div class="col text-center">
-							<div class="c-advantage__icon"><i class="bi bi-person-circle"></i></div>
-							<div class="c-advantage__text">
-								Напрямую без посредников
-							</div>
-						</div>
+				<div class="contacts__item">
+					<h2 class="contact__title">Контакты</h2>
+					<div class="contact">
+						<p class="contact__info">
+							<strong>Место непосредственного ведения деятельности:</strong>
+							115054, г. Москва, муниципальный округ Даниловский, ул. Дубининская, д. 57, стр. 2, помещ. 5Т
+						</p>
+						<p class="contact__info">
+							<strong>Режим работы:</strong>
+							ПН-ПТ - с 09:00 до 18:00,
+							<span>Перерыв - с 13:00 до 14:00</span>
+							СБ, ВС - Выходной
+						</p>
+						<p class="contact__info">
+							<strong>Способы взаимодействия:</strong> 
+							<a href="tel:+79999999999">+7(999)999-99-99</a>
+							<a href="mailto:">pochta@gmail.com</a>
+						</p>
+						
 					</div>
 				</div>
-			</div>
-		</section>
-		<section class="loan position-relative">
-			<div class="container py-5 position-relative text-white h-100 d-flex align-items-center justify-content-center">
-				<div class="row">
-					<div class="row mb-4">
-						<div class="col-12 col-md-10 col-lg-6 mx-auto">
-							<h2 class="text-center fw-semibold c-section__title">Как получить займ</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-12 col-md-10 col-lg-6 mx-auto text-center">
-							<ol class="text-start">
-								<li class="px-4 fs-5 mb-2">Оставьте заявку на сайте или позвоните нам</li>
-								<li class="px-4 fs-5">Встретьтесь с менеджером в нашем офисе и получите деньги в тот же день</li>
-							</ol>
-							<button type="button" class="btn btn-primary btn-lg mt-4" data-bs-toggle="modal" data-bs-target="#request">
-								Отправить заявку
-							</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="reviews" id="reviews">
-			<div class="container">
-				<div class="row c-reviews__rowmb-5">
-					<div class="col-12 mb-4">
-						<h2 class="text-center fw-semibold c-section__title">Отзывы</h2>
-					</div>
-				</div>
-				<div class="row row-cols-1 row-cols-md-3">
-					<div class="col mb-5 mb-lg-0 pb-5 pb-lg-0">
-						<div class="card border-0 h-100 rounded-4 bg-light position-relative">
-							<div class="c-card__head text-center position-absolute start-50 translate-middle">
-								<img src="img/reviews/r1.jpg" class="rounded-circle" alt="">
-							</div>
-							<div class="card-body text-center pt-5">
-								<h5 class="card__title my-4 fs-2">Юрий</h5>
-								<p class="card-text">Обращался в «АвтоЗайм» для получения займа, автомобиль ford Focus, необходимо было срочно 100 тыс. руб., одобрили за 5 минут, получил деньги в тот же день, закрыл займ за 4 месяца, все отлично.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col mb-5 mb-lg-0 pb-5 pb-lg-0">
-						<div class="card border-0 h-100 rounded-4 bg-light position-relative">
-							<div class="c-card__head text-center position-absolute start-50 translate-middle">
-								<img src="img/reviews/r2.jpg" class="rounded-circle" alt="">
-							</div>
-							<div class="card-body text-center pt-5">
-								<h5 class="card__title my-4 fs-2">Надежда</h5>
-								<p class="card-text">Считаю менеджер работает корректно, все условия объясняет доступно для понимания, на все вопросы внимательно отвечает. Всегда доступен по телефону, приятен в общении. Я довольна сотрудничеством. Спасибо!</p>
-							</div>
-						</div>
-					</div>
-					<div class="col mb-5 mb-lg-0 pb-5 pb-lg-0">
-						<div class="card border-0 h-100 rounded-4 bg-light position-relative">
-							<div class="c-card__head text-center position-absolute start-50 translate-middle">
-								<img src="img/reviews/r1.jpg" class="rounded-circle" alt="">
-							</div>
-							<div class="card-body text-center pt-5">
-								<h5 class="card__title my-4 fs-2">Сергей</h5>
-								<p class="card-text">Спасибо за оказанною помощь, все было отлично. Когда обратился в компанию, на автомобиле был запрет, но сотрудник помог решить вопрос и помогли с финансами вовремя, успел выиграть тендер.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="qa" id="qa">
-			<div class="container">
-				<div class="row py-4">
-					<div class="col-12 mb-4">
-						<h2 class="text-center fw-semibold c-section__title">Вопросы и ответы</h2>
-					</div>
-					<div class="col-12 col-md-9 mx-auto">
-						<div class="accordion accordion-flush" id="QAaccordion">
-							<div class="accordion-item border-top">
-								<h2 class="accordion-header" id="headingOne">
-									<button class="accordion-button collapsed align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-										<span class="flex-fill">После оформления займа, кто владеет автомобилем?</span>
-										<i class="bi bi-plus-lg c-qa__icon"></i>
-									</button>
-								</h2>
-								<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#QAaccordion">
-									<div class="accordion-body">
-										<ul>
-											<li>Вы остаётесь владельцем машины на весь период займа. Перехода права собственности не происходит.</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item border-top">
-								<h2 class="accordion-header" id="headingTwo">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-									<span class="flex-fill">Когда я оформлю займ, у меня заберут СТС?</span>
-									<i class="bi bi-plus-lg c-qa__icon"></i>
-								</button>
-								</h2>
-								<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#QAaccordion">
-									<div class="accordion-body">
-										<ul>
-											<li>Нет. Вы предоставляете документы только для оформления договора и проверки. СТС и автомобиль остаются у вас.</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item border-top">
-								<h2 class="accordion-header" id="headingThree">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-									<span class="flex-fill">У меня были просрочки, я могу взять новый займ?</span>
-									<i class="bi bi-plus-lg c-qa__icon"></i>
-								</button>
-								</h2>
-								<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#QAaccordion">
-									<div class="accordion-body">
-										<ul>
-											<li>Плохая кредитная история (КИ) и актуальная задолженность в других кредитных организациях не является причиной для отказа в заключении договора займа. Необходимо подать онлайн-заявку и дождаться результата её рассмотрения. Решение по каждой заявке принимается индивидуально.</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item border-top">
-								<h2 class="accordion-header" id="headingFour">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-									<span class="flex-fill">Как быстро я получу деньги?</span>
-									<i class="bi bi-plus-lg c-qa__icon"></i>
-								</button>
-								</h2>
-								<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#QAaccordion">
-									<div class="accordion-body">
-										<ul>
-											<li>Наличными в офисе в течение 10 - 15 минут.</li>
-											<li>На личную банковскую карту деньги перечисляются банком в течение 2 минут.</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item border-top border-bottom">
-								<h2 class="accordion-header" id="headingFive">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-									<span class="flex-fill">Кто может оформить займ под залог ПТС?</span>
-									<i class="bi bi-plus-lg c-qa__icon"></i>
-								</button>
-								</h2>
-								<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#QAaccordion">
-									<div class="accordion-body">
-										<ul>
-											<li>Гражданин РФ в возрасте от 18 - 70 лет. Владелец автомобиля.</li>
-											<li>Индивидуальный предприниматель имеющий в собственности автомобиль.</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="contacts" id="contacts">
-			<div class="container-fluid position-relative h-100">
-				<div class="row h-100 m-0 ">
-					<div class="col-12 col-md-4 p-4 p-lg-5 bg-white c-contacts__infoblock">
-						<h2 class="text-center text-md-start fw-semibold c-section__title mb-4">Наши контакты</h2>
-						<div class="c-contacts__links">
-							<a href="tel:+79034670077" class="text-decoration-none text-black fw-light d-block">+7 (903) 467-00-77</a>
-							<a href="mailto:car34cash@mail.ru" class="text-decoration-none text-black fw-light d-block" target="_blank">car34cash@mail.ru</a>
-							<a href="https://yandex.ru/maps/38/volgograd/house/sotsialisticheskaya_ulitsa_5/YE0YcwdgSUEFQFpifXtxc3ljZQ==/?ll=44.500042%2C48.702501&z=16.51" class="text-decoration-none fw-light d-block" target="_blank">Г. Волгоград, Социалистическая 5, оф. 9</a>
-						</div>
-					</div>
-					<div class="col-12 c-contacts__mapwrapper">
-						<iframe  width="100%" height="100%" frameborder="0" src="https://yandex.ru/map-widget/v1/?um=constructor%3A3ec675cf41aec957c7f9f508682ea2b92faee3a0a9c54943a5f8fa7cb8eda16d&amp;source=constructor&amp;scroll=false"></iframe>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="bid">
-			<div class="container">
-				<div class="row">
-					<div class="col-12 mb-4">
-						<h2 class="text-center fw-semibold c-section__title mb-5">Оставьте заявку на заём</h2>
-						<h4 class="fw-bold text-center">Наш специалист свяжется с вами, чтобы согласовать условия займа</h4>
-					</div>
-					<div class="col-12 col-md-8 col-lg-6 mx-auto">
-						<form action="#" class="needs-validation" novalidate id="expressRequest">
-							<div class="col-12 text-center mx-auto">
 
-								<div class="form-check form-check-inline">
-									<input class="form-check-input" type="radio" name="person" id="individual" value="Физическое лицо" checked>
-									<label class="form-check-label text-nowrap" for="individual">
-										Физическое лицо
-									</label>
-								</div>
-								<div class="form-check form-check-inline">
-									<input class="form-check-input" type="radio" name="person" id="entity" value="Юридическое лицо">
-									<label class="form-check-label text-nowrap" for="entity">
-										Юридическое лицо
-									</label>
-								</div>
-							</div>
-							<div class="col-12 my-2 text-center">
-								<input type="text" class="form-control form-control-lg" id="eRname" placeholder="Ваше имя" required>
-							</div>
-							
-							<div class="col-12 my-2 input-group">
-								<span class="input-group-text" id="telCode">+7</span>
-								<input type="tel" class="form-control form-control-lg" id="eRtel" placeholder=" (999) 999-99-99" required>
-							</div>
+				<div class="contacts__item">
+					<h2 class="contact__title">Мы на карте</h2>
+					<div class="contact map">
+						<script  type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3ec675cf41aec957c7f9f508682ea2b92faee3a0a9c54943a5f8fa7cb8eda16d&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script>	
+					</div>
+				</div>
 
-							<div class="col-12 text-center my-4">
-								<button type="submit" class="btn btn-primary btn-lg w-100">Отправить заявку</button>
+				<div class="contacts__item">
+					<h2 class="contact__title">Экспресс - заявка</h2>
+					<div class="contact">
+						<form action="#" id="expressRequest">
+							<div class="person">
+								<div>
+									<input type="radio" name="person" value="individual" id="individual" checked>
+									<label for="individual">Физическое лицо</label>
+								</div>
+								<div>
+									<input type="radio" name="person" value="entity" id="entity">
+									<label for="entity">Юридическое лицо</label>
+								</div>
 							</div>
-
-							<p class="c-bid__agreement">Нажимая на кнопку, вы даете <a href="docs/Согласие на обработку персональных данных.pdf" target="_blank">cогласие на обработку ваших персональных данных</a></p>
+							<div class="about-you">
+								<input type="text" name="name" class="form__input" id="name" placeholder="Ваше имя / Название компании">
+								<input type="text" name="carInfo" class="form__input" id="carInfo" placeholder="Марка, модель, год авто">
+								<input type="tel" name="tel" class="form__input" id="yourTel" placeholder="Ваш телефон">
+							</div>
+							<div class="price">
+								<h3 class="price__title">Желаемая сумма</h3>
+								<input type="number" name="price" class="form__input" id="price" value="1000000">
+							</div>
+							<div class="agreement">
+								<input type="checkbox" name="agreement" id="agreement">
+								<label for="agreement">
+									Проставляя галочку и нажимая на кнопку "Отправить заявку" даю <a href="docs/Согласие на обработку персональных данных.pdf" target="_blank">Согласие на обработку персональных данных</a>
+								</label>
+							</div>
+							<button type="submit" class="btn btn-submit">Отправить заявку</button>
 						</form>
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>	
+		<div class="about" id="about">
+			<h2 class="about__title">О нас</h2>
+			<div class="container">
+				<p>"Car34cash" не является финансовым учреждением, МФО, банком, ломбардом и оказывает содействие в подборе финансовых услуг компании-партнёров. Работа данного сервиса связана с осуществлением инвестиционной деятельности. Информация на сайте не является публичной офертой. Все права защищены. содействие в подборе финансовых услуг и организации оказывает ИП Мещерякова Е.А. ИНН: 344213392508</p>
+			</div>
+		</div>
+		<div class="info" id="info">
+			<h2 class="info__title">Информация</h2>
+			<div class="container wrapper">
+				<div class="info__benefits benefits">
+					<h3 class="info__subtitle">Наши преимущества</h3>
+					<div class="benefits__wrapper">
+						<div class="benefits__item">
+							<i class="bi bi-clock-history"></i>
+							<p>Выдача наличных в тот же день</p>
+						</div>
+						<div class="benefits__item">
+							<i class="bi bi-graph-up-arrow"></i>
+							<p>Оценка автомобиля до 90% стоимости</p>
+						</div>
+						<div class="benefits__item">
+							<i class="bi bi-file-text"></i>
+							<p>Без справок и поручителей</p>
+						</div>
+						<div class="benefits__item">
+							<i class="bi bi-credit-card-2-front"></i>
+							<p>С любой кредитной историей</p>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="info__answers answers">
+					<h3 class="info__subtitle">Вопросы и ответы</h3>
+					<div class="accordion" id="answer">
+						<div class="accordion__item">
+							<h2 class="accordion__header">
+								<button class="accordion__button" type="button">После оформления займа, кто владеет автомобилем?</button>
+							</h2>
+							<div class="accordion__body">
+								<ul>
+									<li>Вы остаётесь владельцем машины на весь период займа. Перехода права собственности не происходит.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="accordion__item">
+							<h2 class="accordion__header">
+								<button class="accordion__button" type="button">Когда я оформлю займ, у меня заберут СТС?</button>
+							</h2>
+							<div class="accordion__body">
+								<ul>
+									<li>Нет. Вы предоставляете документы только для оформления договора и проверки. СТС и автомобиль остаются у вас.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="accordion__item">
+							<h2 class="accordion__header">
+								<button class="accordion__button" type="button">У меня были просрочки, я могу взять новый займ?</button>
+							</h2>
+							<div class="accordion__body">
+								<ul>
+									<li>Плохая кредитная история (КИ) и актуальная задолженность в других кредитных организациях не является причиной для отказа в заключении договора займа. Необходимо подать онлайн-заявку и дождаться результата её рассмотрения. Решение по каждой заявке принимается индивидуально.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="accordion__item">
+							<h2 class="accordion__header">
+								<button class="accordion__button" type="button">Как быстро я получу деньги?</button>
+							</h2>
+							<div class="accordion__body">
+								<ul>
+									<li>Наличными в офисе в течение 10 - 15 минут.</li>
+									<li>На личную банковскую карту деньги перечисляются банком в течение 2 минут. </li>
+								</ul>
+							</div>
+						</div>
+						<div class="accordion__item">
+							<h2 class="accordion__header">
+								<button class="accordion__button" type="button">Кто может оформить займ под залог ПТС?</button>
+							</h2>
+							<div class="accordion__body">
+								<ul>
+									<li>Гражданин РФ в возрасте от 18 - 70 лет. Владелец автомобиля.</li>
+									<li>Индивидуальный предприниматель имеющий в собственности автомобиль.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			
+		</div>
 	</main>
-	<footer class="footer">
-		<div class="container py-3 fw-light">
-			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 text-white">
-				<div class="col col-md-12 col-lg-7 flex-fill">
-					<h5 class="text-decoration-underline mb-3 c-footer__title">О нас</h5>
-					<p class="c-footer__text">"car cash 34" не является финансовым учреждением, МФО, банком, ломбардом и оказывает содействие в подборе финансовых услуг компании-партнёров. Работа данного сервиса связана с осуществлением инвестиционной деятельности. Информация на сайте не является публичной офертой. Все права защищены. содействие в подборе финансовых услуг и организации оказывает ИП Мещерякова Е.А. ИНН: 344213392508</p>
-				</div>
-				<div class="col col-sm-6 col-lg-2">
-					<h5 class="text-decoration-underline mb-3 c-footer__title">Навигация</h5>
-					<div class="d-flex flex-column c-footer__links">
-						<a class="text-decoration-none text-white mb-2 c-footer__link" aria-current="page" href="#">Главная</a>
-						<a class="text-decoration-none text-white mb-2 c-footer__link" href="#advantage">Преимущества</a>
-						<a class="text-decoration-none text-white mb-2 c-footer__link" href="#reviews">Отзывы</a>
-						<a class="text-decoration-none text-white mb-2 c-footer__link" href="#qa">Вопросы и ответы</a>
-						<a class="text-decoration-none text-white mb-2 c-footer__link" href="#contacts">Контакты</a>
-					</div>
-				</div>
-				<div class="col col-sm-6 col-lg-3">
-					<h5 class="text-decoration-underline mb-3 c-footer__title">Контакты</h5>
-					<div class="d-flex flex-column c-footer__links">
-						<a href="tel:+79034670077" class="text-decoration-none text-white mb-2 c-footer__link">+7 (903) 467-00-77</a>
-						<a href="mailto:car34cash@mail.ru" class="text-decoration-none text-white mb-2 c-footer__link" target="_blank">car34cash@mail.ru</a>
-						<a href="https://yandex.ru/maps/38/volgograd/house/sotsialisticheskaya_ulitsa_5/YE0YcwdgSUEFQFpifXtxc3ljZQ==/?ll=44.500042%2C48.702501&z=16.51" class="text-decoration-none text-white mb-2 c-footer__link" target="_blank">Г. Волгоград, Социалистическая 5, оф. 9</a>
-					</div>
-				</div>
+	<footer class="lock-padding">
+
+		<div class="footer__bottom">
+			<div class="container">
+				<a href="#appeal" class="footer__link popup-link">Обращение</a>
+			<p>&copy; 2022</p>
 			</div>
 		</div>
 	</footer>
 
-	<div class="absolute-call position-fixed">
-		<button class="c-absolute-call__toggler" type="button" data-bs-toggle="modal" data-bs-target="#absoluteCallModal">
-			<i class="bi bi-telephone c-absolute-call__icon"></i>
-		</button>
-		<a href="tel:+79034670077" class="d-flex align-items-center justify-content-center text-white c-absolute-call__toggler-sm" type="button">
-			<i class="bi bi-telephone c-absolute-call__icon"></i>
-		</a>
-	</div>
 
 
-<!-- modals -->
-<div class="modal fade" id="request" tabindex="-1" aria-labelledby="requestLabel" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title fw-bold">Оставьте заявку на заём</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
-			</div>
-			<div class="modal-body">
-				<form action="#" class="needs-validation" novalidate id="expressRequest1">
-					<div class="col-12 text-center mx-auto">
-						<div class="form-check form-check-inline">
-							<input class="form-check-input" type="radio" name="person" id="individual1" value="Физическое лицо" checked>
-							<label class="form-check-label text-nowrap" for="individual">
-								Физическое лицо
-							</label>
+	<div class="modal" id="appeal">
+		<div class="modal__dialog">
+			<div class="modal__content">
+				<div class="modal__header">
+					<h4 class="modal__title">Обращение</h4>
+					<button class="modal__close" type="button">
+						<svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="30px" height="30px" class="modal__close-icon">
+							<path d="M 7 4 C 6.744125 4 6.4879687 4.0974687 6.2929688 4.2929688 L 4.2929688 6.2929688 C 3.9019687 6.6839688 3.9019687 7.3170313 4.2929688 7.7070312 L 11.585938 15 L 4.2929688 22.292969 C 3.9019687 22.683969 3.9019687 23.317031 4.2929688 23.707031 L 6.2929688 25.707031 C 6.6839688 26.098031 7.3170313 26.098031 7.7070312 25.707031 L 15 18.414062 L 22.292969 25.707031 C 22.682969 26.098031 23.317031 26.098031 23.707031 25.707031 L 25.707031 23.707031 C 26.098031 23.316031 26.098031 22.682969 25.707031 22.292969 L 18.414062 15 L 25.707031 7.7070312 C 26.098031 7.3170312 26.098031 6.6829688 25.707031 6.2929688 L 23.707031 4.2929688 C 23.316031 3.9019687 22.682969 3.9019687 22.292969 4.2929688 L 15 11.585938 L 7.7070312 4.2929688 C 7.5115312 4.0974687 7.255875 4 7 4 z"/>
+						</svg>
+					</button>
+				</div>
+				<div class="modal__body">
+					<form action="#" class="appeal" id="appealForm">
+						<div class="appeal__fullname">
+							<label for="appealFullName">ФИО</label>
+							<input type="text" class="form__input" name="full name" id="appealFullName">
 						</div>
-						<div class="form-check form-check-inline">
-							<input class="form-check-input" type="radio" name="person" id="entity1" value="Юридическое лицо">
-							<label class="form-check-label text-nowrap" for="entity">
-								Юридическое лицо
-							</label>
+						<div class="appeal__phone">
+							<label for="appealPhone">Номер телефона</label>
+							<input type="tel" class="form__input" name="phone" id="appealPhone">
 						</div>
-					</div>
-					<div class="col-12 my-2 text-center">
-						<input type="text" class="form-control form-control-lg" id="eRname1" placeholder="Ваше имя" required>
-					</div>
-					
-					<div class="col-12 my-2 input-group">
-						<span class="input-group-text" id="telCode1">+7</span>
-						<input type="tel" class="form-control form-control-lg" id="eRtel1" placeholder=" (999) 999-99-99" required>
-					</div>
+						<div class="appeal__email">
+							<label for="appealEmail">Email</label>
+							<input type="email" class="form__input" name="email" id="appealEmail">
+						</div>
+						<div class="appeal__text">
+							<label for="appealText">Текст обращения</label>
+							<textarea name="appeal text" class="form__input" id="appealText"></textarea>
+						</div>
+						<div class="appeal__file">
+							<p class="appeal__file-info">Если необходимо направить несколько документов, направьте их в одном архиве</p>
+							<input type="file" class="form__input" name="appeal file" id="appealFile">
+						</div>
+						<div class="appeal__agree">
+							<input type="checkbox" name="agree" id="appealAgreement">
+							<label for="appealAgreement">Проставляя галочку и нажимая на кнопку «Отправить обращение» даю <a href="docs/Согласие на обработку персональных данных.pdf" target="_blank">Согласие на обработку персональных данных</a></label>
+						</div>
 
-					<div class="col-12 text-center my-4">
-						<button type="submit" class="btn btn-primary btn-lg w-100">Отправить заявку</button>
-					</div>
 
-					<p class="c-bid__agreement">Нажимая на кнопку, вы даете <a href="docs/Согласие на обработку персональных данных.pdf" target="_blank">cогласие на обработку ваших персональных данных</a></p>
-				</form>
+						<button class="btn">Отправить обращение</button>
+					</form>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="modal modal-sm fade" id="absoluteCallModal" tabindex="-1" aria-labelledby="absoluteCallModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title fw-bold" id="absoluteCallModalLabel">Оставьте телефон, <br> мы вам перезвоним</h1>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<div class="modal-body">
-				<form action="#" id="absoluteCallForm">
-					<div class="col-12 my-2 input-group">
-						<span class="input-group-text" id="telCode">+7</span>
-						<input type="tel" class="form-control form-control-lg" id="eRtel2" placeholder=" (999) 999-99-99" required>
-					</div>
-					<div class="col-12 text-center my-4">
-						<button type="submit" class="btn btn-primary btn-lg w-100">Перезвоните мне</button>
-					</div>
-					<p class="c-bid__agreement mb-5">Нажимая на кнопку, вы даете <a href="docs/Согласие на обработку персональных данных.pdf" target="_blank">cогласие на обработку ваших персональных данных</a></p>
-				</form>
-				<p class="c-modal-call__text">Или позвоните нам по номеру<a href="tel:+79034670077" class="text-decoration-none text-black fw-light d-block text-center">+7 (903) 467-00-77</a></p>
-			</div>
-		</div>
-	</div>
-</div>
 
-	<script src="vendors/bootstrap.bundle.min.js"></script>
-	<script src="vendors/inputmask.min.js"></script>
-	<script src="js/app.js"></script>
+
+	<script src="scripts/script.js"></script>
 </body>
 </html>
