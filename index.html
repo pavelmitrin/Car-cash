@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"> -->
+	<!-- Icons -->
+	<link rel="stylesheet" href="vendors/bootstrap-icons.css">
+	<!-- Style -->
+	<link rel="stylesheet" href="vendors/bootstrap.min.css">
+	<link rel="stylesheet" href="style/vars.css">
+	<link rel="stylesheet" href="style/main.css">
+
+	<title>CAR CASH 34</title>
+</head>
+<body class="position-relative">
+	
+	<header class="header">
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg  justify-content-end justify-content-lg-between">
+				<a class="navbar-brand d-none d-lg-block" href="#">
+					<img src="img/favicon.png" class="c-header__img img-fluid" alt="car cash 34">
+				</a>
+				<button class="navbar-toggler c-header__toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#headerOffcanvas" aria-controls="headerOffcanvas">
+					<i class="bi bi-three-dots-vertical"></i>
+				</button>
+				<div class="offcanvas offcanvas-end bg-primary" tabindex="-1" id="headerOffcanvas" aria-labelledby="headerOffcanvasLabel">
+					<div class="offcanvas-header justify-content-end">
+						<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+					</div>
+					<div class="offcanvas-body w-100 ">
+						<div class="navbar-nav text-start px-4 px-lg-0 flex-fill justify-content-center text-center fw-bold">
+							<a class="nav-link active" aria-current="page" href="#">Главная</a>
+							<a class="nav-link" href="#advantage">Преимущества</a>
+							<a class="nav-link" href="#reviews">Отзывы</a>
+							<a class="nav-link d-lg-none" href="#qa">Вопросы и ответы</a>
+							<a class="nav-link" href="#contacts">Контакты</a>
+						</div>
+						<div class="c-header__connection d-none d-lg-block">
+							<a href="tel:+79034670077" class="mx-3 text-decoration-none text-black">+7 (903) 467-00-77</a>
+							<button type="button" class="btn btn-primary fw-bold" data-bs-toggle="modal" data-bs-target="#request">
+								Оставить заявку
+							</button>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<main class="main">
+		<section class="head position-relative w-100 py-4">
+			<div class="container">
+				<div class="row position-relative">
+					<div class="col-12 col-md-10 col-lg-7 text-start text-white">
+						<h1 class="c-head__title">Автоломбард в Волгограде. Займ под ПТС или Спецтехнику</h1>
+						<ul class="my-5">
+							<li>до 15 млн руб</li>
+							<li>Автомобиль остаётся у вас</li>
+							<li>Ставка от 2,5%</li>
+							<li>нужны только паспорт ПТС и СТС или ПСМ</li>
+						</ul>
+						<button type="button" class="btn btn-primary btn-lg mb-5" data-bs-toggle="modal" data-bs-target="#request">
+							Оставить заявку
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 position-absolute start-50 translate-middle text-center d-inline-block c-head__icon-down">
+				<button class="c-head__scroll text-white"><i class="bi bi-chevron-double-down"></i></button>
+			</div>
+		</section>
+		<section class="advantage" id="advantage">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 mb-4">
+						<h2 class="text-center fw-semibold c-section__title">Преимущества</h2>
+					</div>
+					<div class="row row-cols-2 row-cols-md-4 mt-4">
+						<div class="col text-center">
+							<div class="c-advantage__icon"><i class="bi bi-clock-history"></i></div>
+							<div class="c-advantage__text">
+								Выдача наличных в тот же день
+							</div>
+						</div>
+						<div class="col text-center">
+							<div class="c-advantage__icon"><i class="bi bi-graph-up-arrow"></i></div>
+							<div class="c-advantage__text">
+								Оценка автомобиля до 90% стоимости
+							</div>
+						</div>
+						<div class="col text-center">
+							<div class="c-advantage__icon"><i class="bi bi-file-text"></i></div>
+							<div class="c-advantage__text">
+								Без справок и поручителей
+							</div>
+						</div>
+						<div class="col text-center">
+							<div class="c-advantage__icon"><i class="bi bi-credit-card-2-front"></i></div>
+							<div class="c-advantage__text">
+								С любой кредитной историей
+							</div>
+						</div>
+						<div class="col text-center">
+							<div class="c-advantage__icon"><i class="bi bi-bank"></i></div>
+							<div class="c-advantage__text">
+								Работаем с юр.лицами
+							</div>
+						</div>
+						<div class="col text-center">
+							<div class="c-advantage__icon"><i class="bi bi-bag-check"></i></div>
+							<div class="c-advantage__text">
+								Без дополнительных услуг
+							</div>
+						</div>
+						<div class="col text-center">
+							<div class="c-advantage__icon"><i class="bi bi-percent"></i></div>
+							<div class="c-advantage__text">
+								Без комиссии
+							</div>
+						</div>
+						<div class="col text-center">
+							<div class="c-advantage__icon"><i class="bi bi-person-circle"></i></div>
+							<div class="c-advantage__text">
+								Напрямую без посредников
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="loan position-relative">
+			<div class="container py-5 position-relative text-white h-100 d-flex align-items-center justify-content-center">
+				<div class="row">
+					<div class="row mb-4">
+						<div class="col-12 col-md-10 col-lg-6 mx-auto">
+							<h2 class="text-center fw-semibold c-section__title">Как получить займ</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 col-md-10 col-lg-6 mx-auto text-center">
+							<ol class="text-start">
+								<li class="px-4 fs-5 mb-2">Оставьте заявку на сайте или позвоните нам</li>
+								<li class="px-4 fs-5">Встретьтесь с менеджером в нашем офисе и получите деньги в тот же день</li>
+							</ol>
+							<button type="button" class="btn btn-primary btn-lg mt-4" data-bs-toggle="modal" data-bs-target="#request">
+								Отправить заявку
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="reviews" id="reviews">
+			<div class="container">
+				<div class="row c-reviews__rowmb-5">
+					<div class="col-12 mb-4">
+						<h2 class="text-center fw-semibold c-section__title">Отзывы</h2>
+					</div>
+				</div>
+				<div class="row row-cols-1 row-cols-md-3">
+					<div class="col mb-5 mb-lg-0 pb-5 pb-lg-0">
+						<div class="card border-0 h-100 rounded-4 bg-light position-relative">
+							<div class="c-card__head text-center position-absolute start-50 translate-middle">
+								<img src="img/reviews/r1.jpg" class="rounded-circle" alt="">
+							</div>
+							<div class="card-body text-center pt-5">
+								<h5 class="card__title my-4 fs-2">Юрий</h5>
+								<p class="card-text">Обращался в «АвтоЗайм» для получения займа, автомобиль ford Focus, необходимо было срочно 100 тыс. руб., одобрили за 5 минут, получил деньги в тот же день, закрыл займ за 4 месяца, все отлично.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col mb-5 mb-lg-0 pb-5 pb-lg-0">
+						<div class="card border-0 h-100 rounded-4 bg-light position-relative">
+							<div class="c-card__head text-center position-absolute start-50 translate-middle">
+								<img src="img/reviews/r2.jpg" class="rounded-circle" alt="">
+							</div>
+							<div class="card-body text-center pt-5">
+								<h5 class="card__title my-4 fs-2">Надежда</h5>
+								<p class="card-text">Считаю менеджер работает корректно, все условия объясняет доступно для понимания, на все вопросы внимательно отвечает. Всегда доступен по телефону, приятен в общении. Я довольна сотрудничеством. Спасибо!</p>
+							</div>
+						</div>
+					</div>
+					<div class="col mb-5 mb-lg-0 pb-5 pb-lg-0">
+						<div class="card border-0 h-100 rounded-4 bg-light position-relative">
+							<div class="c-card__head text-center position-absolute start-50 translate-middle">
+								<img src="img/reviews/r1.jpg" class="rounded-circle" alt="">
+							</div>
+							<div class="card-body text-center pt-5">
+								<h5 class="card__title my-4 fs-2">Сергей</h5>
+								<p class="card-text">Спасибо за оказанною помощь, все было отлично. Когда обратился в компанию, на автомобиле был запрет, но сотрудник помог решить вопрос и помогли с финансами вовремя, успел выиграть тендер.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="qa" id="qa">
+			<div class="container">
+				<div class="row py-4">
+					<div class="col-12 mb-4">
+						<h2 class="text-center fw-semibold c-section__title">Вопросы и ответы</h2>
+					</div>
+					<div class="col-12 col-md-9 mx-auto">
+						<div class="accordion accordion-flush" id="QAaccordion">
+							<div class="accordion-item border-top">
+								<h2 class="accordion-header" id="headingOne">
+									<button class="accordion-button collapsed align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+										<span class="flex-fill">После оформления займа, кто владеет автомобилем?</span>
+										<i class="bi bi-plus-lg c-qa__icon"></i>
+									</button>
+								</h2>
+								<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#QAaccordion">
+									<div class="accordion-body">
+										<ul>
+											<li>Вы остаётесь владельцем машины на весь период займа. Перехода права собственности не происходит.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item border-top">
+								<h2 class="accordion-header" id="headingTwo">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									<span class="flex-fill">Когда я оформлю займ, у меня заберут СТС?</span>
+									<i class="bi bi-plus-lg c-qa__icon"></i>
+								</button>
+								</h2>
+								<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#QAaccordion">
+									<div class="accordion-body">
+										<ul>
+											<li>Нет. Вы предоставляете документы только для оформления договора и проверки. СТС и автомобиль остаются у вас.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item border-top">
+								<h2 class="accordion-header" id="headingThree">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									<span class="flex-fill">У меня были просрочки, я могу взять новый займ?</span>
+									<i class="bi bi-plus-lg c-qa__icon"></i>
+								</button>
+								</h2>
+								<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#QAaccordion">
+									<div class="accordion-body">
+										<ul>
+											<li>Плохая кредитная история (КИ) и актуальная задолженность в других кредитных организациях не является причиной для отказа в заключении договора займа. Необходимо подать онлайн-заявку и дождаться результата её рассмотрения. Решение по каждой заявке принимается индивидуально.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item border-top">
+								<h2 class="accordion-header" id="headingFour">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+									<span class="flex-fill">Как быстро я получу деньги?</span>
+									<i class="bi bi-plus-lg c-qa__icon"></i>
+								</button>
+								</h2>
+								<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#QAaccordion">
+									<div class="accordion-body">
+										<ul>
+											<li>Наличными в офисе в течение 10 - 15 минут.</li>
+											<li>На личную банковскую карту деньги перечисляются банком в течение 2 минут.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item border-top border-bottom">
+								<h2 class="accordion-header" id="headingFive">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+									<span class="flex-fill">Кто может оформить займ под залог ПТС?</span>
+									<i class="bi bi-plus-lg c-qa__icon"></i>
+								</button>
+								</h2>
+								<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#QAaccordion">
+									<div class="accordion-body">
+										<ul>
+											<li>Гражданин РФ в возрасте от 18 - 70 лет. Владелец автомобиля.</li>
+											<li>Индивидуальный предприниматель имеющий в собственности автомобиль.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contacts" id="contacts">
+			<div class="container-fluid position-relative h-100">
+				<div class="row h-100 m-0 ">
+					<div class="col-12 col-md-4 p-4 p-lg-5 bg-white c-contacts__infoblock">
+						<h2 class="text-center text-md-start fw-semibold c-section__title mb-4">Наши контакты</h2>
+						<div class="c-contacts__links">
+							<a href="tel:+79034670077" class="text-decoration-none text-black fw-light d-block">+7 (903) 467-00-77</a>
+							<a href="mailto:car34cash@mail.ru" class="text-decoration-none text-black fw-light d-block" target="_blank">car34cash@mail.ru</a>
+							<a href="https://yandex.ru/maps/38/volgograd/house/sotsialisticheskaya_ulitsa_5/YE0YcwdgSUEFQFpifXtxc3ljZQ==/?ll=44.500042%2C48.702501&z=16.51" class="text-decoration-none fw-light d-block" target="_blank">Г. Волгоград, Социалистическая 5, оф. 9</a>
+						</div>
+					</div>
+					<div class="col-12 c-contacts__mapwrapper">
+						<iframe  width="100%" height="100%" frameborder="0" src="https://yandex.ru/map-widget/v1/?um=constructor%3A3ec675cf41aec957c7f9f508682ea2b92faee3a0a9c54943a5f8fa7cb8eda16d&amp;source=constructor&amp;scroll=false"></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="bid">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 mb-4">
+						<h2 class="text-center fw-semibold c-section__title mb-5">Оставьте заявку на заём</h2>
+						<h4 class="fw-bold text-center">Наш специалист свяжется с вами, чтобы согласовать условия займа</h4>
+					</div>
+					<div class="col-12 col-md-8 col-lg-6 mx-auto">
+						<form action="#" class="needs-validation" novalidate id="expressRequest">
+							<div class="col-12 text-center mx-auto">
+
+								<div class="form-check form-check-inline">
+									<input class="form-check-input" type="radio" name="person" id="individual" value="Физическое лицо" checked>
+									<label class="form-check-label text-nowrap" for="individual">
+										Физическое лицо
+									</label>
+								</div>
+								<div class="form-check form-check-inline">
+									<input class="form-check-input" type="radio" name="person" id="entity" value="Юридическое лицо">
+									<label class="form-check-label text-nowrap" for="entity">
+										Юридическое лицо
+									</label>
+								</div>
+							</div>
+							<div class="col-12 my-2 text-center">
+								<input type="text" class="form-control form-control-lg" id="eRname" placeholder="Ваше имя" required>
+							</div>
+							
+							<div class="col-12 my-2 input-group">
+								<span class="input-group-text" id="telCode">+7</span>
+								<input type="tel" class="form-control form-control-lg" id="eRtel" placeholder=" (999) 999-99-99" required>
+							</div>
+
+							<div class="col-12 text-center my-4">
+								<button type="submit" class="btn btn-primary btn-lg w-100">Отправить заявку</button>
+							</div>
+
+							<p class="c-bid__agreement">Нажимая на кнопку, вы даете <a href="docs/Согласие на обработку персональных данных.pdf" target="_blank">cогласие на обработку ваших персональных данных</a></p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container py-3 fw-light">
+			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 text-white">
+				<div class="col col-md-12 col-lg-7 flex-fill">
+					<h5 class="text-decoration-underline mb-3 c-footer__title">О нас</h5>
+					<p class="c-footer__text">"car cash 34" не является финансовым учреждением, МФО, банком, ломбардом и оказывает содействие в подборе финансовых услуг компании-партнёров. Работа данного сервиса связана с осуществлением инвестиционной деятельности. Информация на сайте не является публичной офертой. Все права защищены. содействие в подборе финансовых услуг и организации оказывает ИП Мещерякова Е.А. ИНН: 344213392508</p>
+				</div>
+				<div class="col col-sm-6 col-lg-2">
+					<h5 class="text-decoration-underline mb-3 c-footer__title">Навигация</h5>
+					<div class="d-flex flex-column c-footer__links">
+						<a class="text-decoration-none text-white mb-2 c-footer__link" aria-current="page" href="#">Главная</a>
+						<a class="text-decoration-none text-white mb-2 c-footer__link" href="#advantage">Преимущества</a>
+						<a class="text-decoration-none text-white mb-2 c-footer__link" href="#reviews">Отзывы</a>
+						<a class="text-decoration-none text-white mb-2 c-footer__link" href="#qa">Вопросы и ответы</a>
+						<a class="text-decoration-none text-white mb-2 c-footer__link" href="#contacts">Контакты</a>
+					</div>
+				</div>
+				<div class="col col-sm-6 col-lg-3">
+					<h5 class="text-decoration-underline mb-3 c-footer__title">Контакты</h5>
+					<div class="d-flex flex-column c-footer__links">
+						<a href="tel:+79034670077" class="text-decoration-none text-white mb-2 c-footer__link">+7 (903) 467-00-77</a>
+						<a href="mailto:car34cash@mail.ru" class="text-decoration-none text-white mb-2 c-footer__link" target="_blank">car34cash@mail.ru</a>
+						<a href="https://yandex.ru/maps/38/volgograd/house/sotsialisticheskaya_ulitsa_5/YE0YcwdgSUEFQFpifXtxc3ljZQ==/?ll=44.500042%2C48.702501&z=16.51" class="text-decoration-none text-white mb-2 c-footer__link" target="_blank">Г. Волгоград, Социалистическая 5, оф. 9</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="absolute-call position-fixed">
+		<button class="c-absolute-call__toggler" type="button" data-bs-toggle="modal" data-bs-target="#absoluteCallModal">
+			<i class="bi bi-telephone c-absolute-call__icon"></i>
+		</button>
+		<a href="tel:+79034670077" class="d-flex align-items-center justify-content-center text-white c-absolute-call__toggler-sm" type="button">
+			<i class="bi bi-telephone c-absolute-call__icon"></i>
+		</a>
+	</div>
+
+
+<!-- modals -->
+<div class="modal fade" id="request" tabindex="-1" aria-labelledby="requestLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title fw-bold">Оставьте заявку на заём</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+			</div>
+			<div class="modal-body">
+				<form action="#" class="needs-validation" novalidate id="expressRequest1">
+					<div class="col-12 text-center mx-auto">
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="person" id="individual1" value="Физическое лицо" checked>
+							<label class="form-check-label text-nowrap" for="individual">
+								Физическое лицо
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="person" id="entity1" value="Юридическое лицо">
+							<label class="form-check-label text-nowrap" for="entity">
+								Юридическое лицо
+							</label>
+						</div>
+					</div>
+					<div class="col-12 my-2 text-center">
+						<input type="text" class="form-control form-control-lg" id="eRname1" placeholder="Ваше имя" required>
+					</div>
+					
+					<div class="col-12 my-2 input-group">
+						<span class="input-group-text" id="telCode1">+7</span>
+						<input type="tel" class="form-control form-control-lg" id="eRtel1" placeholder=" (999) 999-99-99" required>
+					</div>
+
+					<div class="col-12 text-center my-4">
+						<button type="submit" class="btn btn-primary btn-lg w-100">Отправить заявку</button>
+					</div>
+
+					<p class="c-bid__agreement">Нажимая на кнопку, вы даете <a href="docs/Согласие на обработку персональных данных.pdf" target="_blank">cогласие на обработку ваших персональных данных</a></p>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal modal-sm fade" id="absoluteCallModal" tabindex="-1" aria-labelledby="absoluteCallModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title fw-bold" id="absoluteCallModalLabel">Оставьте телефон, <br> мы вам перезвоним</h1>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<form action="#" id="absoluteCallForm">
+					<div class="col-12 my-2 input-group">
+						<span class="input-group-text" id="telCode">+7</span>
+						<input type="tel" class="form-control form-control-lg" id="eRtel2" placeholder=" (999) 999-99-99" required>
+					</div>
+					<div class="col-12 text-center my-4">
+						<button type="submit" class="btn btn-primary btn-lg w-100">Перезвоните мне</button>
+					</div>
+					<p class="c-bid__agreement mb-5">Нажимая на кнопку, вы даете <a href="docs/Согласие на обработку персональных данных.pdf" target="_blank">cогласие на обработку ваших персональных данных</a></p>
+				</form>
+				<p class="c-modal-call__text">Или позвоните нам по номеру<a href="tel:+79034670077" class="text-decoration-none text-black fw-light d-block text-center">+7 (903) 467-00-77</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<script src="vendors/bootstrap.bundle.min.js"></script>
+	<script src="vendors/inputmask.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
