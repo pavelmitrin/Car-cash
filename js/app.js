@@ -89,3 +89,10 @@ function toggleNoneClassForAbsoluteToggler() {
 }
 window.addEventListener('resize', toggleNoneClassForAbsoluteToggler);
 window.addEventListener('load', toggleNoneClassForAbsoluteToggler);
+
+
+
+function errorSendMail() {
+	const alertModal = document.querySelector('#alertMessage');
+	new bootstrap.Modal(alertModal).show()
+}

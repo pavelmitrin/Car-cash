@@ -310,7 +310,7 @@
 						<h4 class="fw-bold text-center">Наш специалист свяжется с вами, чтобы согласовать условия займа</h4>
 					</div>
 					<div class="col-12 col-md-8 col-lg-6 mx-auto">
-						<form action="#" class="needs-validation" novalidate id="expressRequest">
+						<form action="mail.php" method="post" class="needs-validation" novalidate id="expressRequest">
 							<div class="col-12 text-center mx-auto">
 
 								<div class="form-check form-check-inline">
@@ -327,12 +327,12 @@
 								</div>
 							</div>
 							<div class="col-12 my-2 text-center">
-								<input type="text" class="form-control form-control-lg" id="eRname" placeholder="Ваше имя" required>
+								<input type="text" class="form-control form-control-lg" id="eRname" name="requiName" placeholder="Ваше имя" required>
 							</div>
 							
 							<div class="col-12 my-2 input-group">
 								<span class="input-group-text" id="telCode">+7</span>
-								<input type="tel" class="form-control form-control-lg" id="eRtel" placeholder=" (999) 999-99-99" required>
+								<input type="tel" class="form-control form-control-lg" id="eRtel" name="requiPhone" placeholder=" (999) 999-99-99" required>
 							</div>
 
 							<div class="col-12 text-center my-4">
@@ -394,28 +394,28 @@
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
 			</div>
 			<div class="modal-body">
-				<form action="#" class="needs-validation" novalidate id="expressRequest1">
+				<form action="mailModal.php" method="post" class="needs-validation" novalidate id="expressRequest1">
 					<div class="col-12 text-center mx-auto">
 						<div class="form-check form-check-inline">
-							<input class="form-check-input" type="radio" name="person" id="individual1" value="Физическое лицо" checked>
+							<input class="form-check-input" type="radio" name="person1" id="individual1" value="Физическое лицо" checked>
 							<label class="form-check-label text-nowrap" for="individual">
 								Физическое лицо
 							</label>
 						</div>
 						<div class="form-check form-check-inline">
-							<input class="form-check-input" type="radio" name="person" id="entity1" value="Юридическое лицо">
+							<input class="form-check-input" type="radio" name="person1" id="entity1" value="Юридическое лицо">
 							<label class="form-check-label text-nowrap" for="entity">
 								Юридическое лицо
 							</label>
 						</div>
 					</div>
 					<div class="col-12 my-2 text-center">
-						<input type="text" class="form-control form-control-lg" id="eRname1" placeholder="Ваше имя" required>
+						<input type="text" class="form-control form-control-lg" id="eRname1" name="reuiName1" placeholder="Ваше имя" required>
 					</div>
 					
 					<div class="col-12 my-2 input-group">
 						<span class="input-group-text" id="telCode1">+7</span>
-						<input type="tel" class="form-control form-control-lg" id="eRtel1" placeholder=" (999) 999-99-99" required>
+						<input type="tel" class="form-control form-control-lg" id="eRtel1" name="requiPhone1" placeholder=" (999) 999-99-99" required>
 					</div>
 
 					<div class="col-12 text-center my-4">
@@ -436,10 +436,10 @@
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<div class="modal-body">
-				<form action="#" id="absoluteCallForm">
+				<form action="mailAbsolute.php" method="post" id="absoluteCallForm">
 					<div class="col-12 my-2 input-group">
 						<span class="input-group-text" id="telCode">+7</span>
-						<input type="tel" class="form-control form-control-lg" id="eRtel2" placeholder=" (999) 999-99-99" required>
+						<input type="tel" class="form-control form-control-lg" id="eRtel2" name="requiPhone3" placeholder=" (999) 999-99-99" required>
 					</div>
 					<div class="col-12 text-center my-4">
 						<button type="submit" class="btn btn-primary btn-lg w-100">Перезвоните мне</button>
@@ -451,6 +451,25 @@
 		</div>
 	</div>
 </div>
+
+
+<div class="modal fade" id="alertMessage" tabindex="-1" aria-labelledby="alertMessageLabel" aria-hidden="true">
+	<div class="modal-dialog modal-sm modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title fw-bold text-danger">Произошла ошибка</h1>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body text-center py-4">
+				<h5>Произошла ошибка при отправке формы</h5>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Закрыть</button>
+			</div>
+		</div>
+	</div>
+</div>
+
 
 	<script src="vendors/bootstrap.bundle.min.js"></script>
 	<script src="vendors/inputmask.min.js"></script>
