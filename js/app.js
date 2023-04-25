@@ -70,7 +70,7 @@ Array.from(forms).forEach(form => {
 const inputTelForm = document.querySelector("#eRtel");
 const inputTelForm1 = document.querySelector("#eRtel1");
 const inputTelForm2 = document.querySelector("#eRtel2");
-const telMask = new Inputmask("(999)999-99-99");
+const telMask = new Inputmask("8(999)999-99-99");
 telMask.mask(inputTelForm);
 telMask.mask(inputTelForm1);
 telMask.mask(inputTelForm2);
